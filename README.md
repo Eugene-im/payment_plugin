@@ -5,3 +5,6 @@ npm install gulp -g
 npm install
 <br>
 gulp
+
+
+*does not work without src folder
