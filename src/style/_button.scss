@@ -1,0 +1,108 @@
+.button__wrapper {
+    width: 218px;
+    height: 144px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-settings__block {
+    padding: 8px 10px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #21afea;
+    flex: 0 0 auto;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button__block {
+    max-width: 157.3px;
+    width: 100%;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button__block__item {
+    width: 120px;
+    height: 36px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #b58c00;
+    background-color: #ffc43a;
+    cursor: pointer;
+    text-transform: capitalize;
+    // .Pay {
+        text-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.15);
+        font-family: SalesforceSans;
+        font-size: 15px;
+        font-weight: bold;
+        color: #384766;
+    //   }
+}
+
+.call-settings__icon {
+    width: 13px;
+    height: 20px;
+    background-color: #ffffff;
+}
+
+.call-settings__description {
+    display: flex;
+    width: 180px;
+    flex-direction: column;
+    font-family: Raleway;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.call-settings__description_f-line {
+    font-size: 12px;
+}
+
+.call-settings__description_s-line {
+    font-size: 8px;
+}
+
+.button__block__icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block__icons__item {
+    width: 28.1px;
+    height: 17.3px;
+    border-radius: 2.8px;
+}
+
+.item_pp {
+
+    border: solid 0.7px #0a4c81;
+    background-color: #ffffff;
+}
+
+.item_mc {
+    background-color: #000066;
+}
+
+.item_v {
+    background-color: #26337a;
+}
+
+.item_dis {
+    border: solid 0.7px #e6772f;
+    background-color: #ffffff;
+}
+
+.item_ae {
+    background-color: #0072ce;
+}

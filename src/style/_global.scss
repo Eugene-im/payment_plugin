@@ -1,0 +1,125 @@
+.content {
+	padding: 0 20px
+}
+
+.form__housing {
+	max-width: 480px;
+	width: 100%;
+	min-height: 749px;
+	border-radius: 8px;
+	box-shadow: 3px 4px 14px 1px rgba(29, 45, 60, 0.3);
+	background-color: #ffffff;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.form__top {
+	width: 100%;
+	background-color: #3899ec;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 18px 15px 24px;
+	flex: 0 0 54px;
+}
+
+.top__button {
+	width: 24px;
+	height: 24px;
+	background-color: #0081ce;
+	border-radius: 50%;
+	flex: 0 0 auto;
+}
+
+.button_min {
+	margin-right: 14px;
+}
+
+.top__title {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #ffffff;
+	flex: 1 0 auto;
+}
+
+.main__about {
+	max-width: 384px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.form__main {
+	flex: 1 0 auto;
+	padding: 20px 0;
+	box-sizing: content-box;
+	background-color: #fafbfc;
+}
+
+.about__logo {
+	width: 82.4px;
+	height: 79.2px;
+	background-color: #4675d9;
+}
+
+.description__title {
+	max-width: 155px;
+	font-family: SourceSansPro;
+	font-size: 24px;
+	color: $text_color_form_top;
+	padding-bottom: 8px;
+}
+
+.description__text {
+	max-width: 286px;
+	font-family: Raleway;
+	font-size: 13px;
+	color: $text_color_form_top;
+}
+
+.tabs__main {
+	padding: 24px 0 0 0;
+}
+
+.tabs__block {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.block__item {
+	width: 88px;
+	font-family: Raleway;
+	font-size: 12px;
+	color: $text_color_form_top;
+	border: 1px solid transparent;
+	padding: 10px 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.block__item_active {
+	background: #fff;
+	border: 1px solid #d8dde6;
+	border-top: 2px solid #21afea;
+	border-bottom: 1px solid transparent;
+	font-weight: 700;
+	color: #21afea;
+	border-radius: 5px 5px 0 0;
+}
+
+.items__block {
+	width: 100%;
+	border-top: 1px solid #d8dde6;
+	margin-top: -1px;
+}
+
+.tabs__item {
+	display: none;
+	padding: 20px 0 0 0;
+}
+
+.tabs__item_active {
+	display: block;
+}
